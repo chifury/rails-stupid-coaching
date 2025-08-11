@@ -1,0 +1,8 @@
+<div class="container pt-4">
+  <h1 class="pb-4">Stupid Coaching</h1>
+  <h2 class="text-primary"><%= params[:question] %></h2>
+  <p class="fw-bold">- You</p>
+  <h2 class="pt-3 text-danger"><%= @answer %></h2>
+  <p class="fw-bold">- Your Coach</p>
+  <%= link_to "Ask a new question", ask_path, class: "fw-bold mt-3 p-2 btn btn-info" %>
+</div>
